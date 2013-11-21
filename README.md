@@ -75,7 +75,7 @@ Some example uses for the `b` tag:
 
 Usage example:
 ```html
-    <p><b>The event takes place this upcoming Saturday, and over 3,000 people have already registered.</b> In the first day of...</p>
+    <p><b class="lead">The event takes place this upcoming Saturday, and over 3,000 people have already registered.</b> In the first day of...</p>
 ```
 
 ##### Challenge
