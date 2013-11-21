@@ -92,6 +92,18 @@ Usage example:
 ##### Challenge
 Using the new semantics of HTML elements, mark up “invitation-only” to have “stress emphasis.” in level_1/7/index.html
 
+#### STRONG IMPORTANCE
+In old days of HTML4 the `strong` was meant to strong emphasis, and now it semanticaly express "strong importance".
+
+Usage example:
+```html
+	<p>Make sure to activate <em>before</em> the BIG day, <strong>October 21, 2013.</strong></p>
+```
+
+##### Challenge
+Using the new semantics of HTML elements, mark up the date to have “strong importance.” in level_1/8/index.html
+
+
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
 
