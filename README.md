@@ -6,6 +6,19 @@ Code School - Learn the latest versions of HTML &amp; CSS. Take a look at new HT
 ### LEVEL 1 - Overview & Updates
 Get an overview of HTML5 and CSS3, and learn which HTML elements have been updated in HTML5. 
 
+#### THE NEW DOCTYPE
+In HTML 4 we have 3 different types of Doctypes, that simple putting are only copy and pasted from one project to the other. They are:
+
+1. HTML 4.01 Strict: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
+2. HTML 4.01 Transitional: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
+3. HTML 4.01 Frameset: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">`
+
+Now in the HTML 5, we only need a simple one: `<!DOCTYPE html>`
+
+##### Challenges:
+1. Start out by writing the new HTML5 doctype into the index.html inside level_1.
+
+
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
 
