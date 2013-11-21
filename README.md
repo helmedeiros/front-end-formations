@@ -9,9 +9,9 @@ Get an overview of HTML5 and CSS3, and learn which HTML elements have been updat
 #### THE NEW DOCTYPE
 In HTML4 we have 3 different types of Doctypes, that simple putting are only copy and pasted from one project to the other. They are:
 
-1. HTML 4.01 Strict: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
-2. HTML 4.01 Transitional: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
-3. HTML 4.01 Frameset: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">`
+1. Strict: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
+2. Transitional: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
+3. Frameset: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">`
 
 Now in the HTML5, we only need a simple one: `<!DOCTYPE html>`
 
@@ -27,6 +27,13 @@ Now in the HTML5, a new attribute was added, and the meta for encode definition 
 ##### Challenge
 Write the new HTML5 `meta` declaration for specifying the character encoding of our document. It should use `UTF-8` as the encoding. Use the level_1/2/index.html
 
+#### THE SCRIPT TAG
+The script tag used normally for javascript inclusion, was updated. In the HTML4 we specify the `type` attribute as `text/javascript` like `<script type="text/javascript" src="script.js"></script>`. 
+
+Now in the HTML5 they changed browsers so they can infer javascript as type, so the new script tag for HTML5 is: `<script src="file.js"></script>`.
+
+##### Challenge
+Assuming that we have the HTML inside level_1/3/index.html script tag in HTML4, remove the portion we do not need in HTML5.
 
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
