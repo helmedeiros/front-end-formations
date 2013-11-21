@@ -49,15 +49,37 @@ Some elements changed its semantic in the new HTML5. In HTML4, the `i` was a fon
 
 Now in the HTML5 the `i` tag represents text in an “alternate voice” or “mood”.
 
-Some example uses for the i tag:
+Some example uses for the `i` tag:
 * Taxonomic designation;
 * Technical term;
 * Idiomatic phrase from another language Transliteration;
 * A thought;
 * Ship name in Western texts;
 
+Usage example:
+```html
+    <p><i>I hope this fail</i>, he thought.</p>
+```
+
 ##### Challenge 
 Using the new semantics of HTML elements, mark up the text, “This is the finest piece of art I have ever seen” in the level_1/5/index.html to be represented in an “alternate voice” or “mood”.
+
+#### STYLISTICALLY OFFSET
+The `b` tag was also changed semantically. In old days it was only a font style element, but now it should be used to represent a stylistically offset.
+
+Some example uses for the `b` tag:
+* Key words in a document abstract;
+* Product names in a review;
+* Actionable words in interactive text-driven software; 
+* Article lead;
+
+Usage example:
+```html
+    <p><b>The event takes place this upcoming Saturday, and over 3,000 people have already registered.</b> In the first day of...</p>
+```
+
+##### Challenge
+Using the new semantics of HTML elements, make the first paragraph an article lead, which needs to be “stylistically offset” from the following paragraphs. level_1/6/index.html
 
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
