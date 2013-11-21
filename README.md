@@ -17,6 +17,7 @@ Now in the HTML 5, we only need a simple one: `<!DOCTYPE html>`
 
 ##### Challenges:
 1. Start out by writing the new HTML5 doctype into the index.html inside level_1.
+2. Write the new HTML5 `meta` declaration for specifying the character encoding of our document. It should use `UTF-8` as the encoding.
 
 
 ### LEVEL 2 - HTML5 Elements
