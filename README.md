@@ -81,6 +81,17 @@ Usage example:
 ##### Challenge
 Using the new semantics of HTML elements, make the first paragraph an article lead, which needs to be “stylistically offset” from the following paragraphs. level_1/6/index.html
 
+#### STRESS EMPHASIS
+In old days of HTML4 the `em` was meant to emphasis, and now it receives a more dramatic semantic "stress emphasis".
+
+Usage example:
+```html
+	<p>Make sure to activate <em>before</em> the BIG day.</p>
+```
+
+##### Challenge
+Using the new semantics of HTML elements, mark up “invitation-only” to have “stress emphasis.” in level_1/7/index.html
+
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
 
