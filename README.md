@@ -44,6 +44,21 @@ Now in the HTML5 specification the type attribute could be infered, so we finish
 ##### Challenge
 Use the link tag to to include the external stylesheet, style.css, and only use the attributes necessary for the HTML5 version.
 
+#### ALTERNATE VOICE OR MOOD
+Some elements changed its semantic in the new HTML5. In HTML4, the `i` was a font style element that represents italic font. 
+
+Now in the HTML5 the `i` tag represents text in an “alternate voice” or “mood”.
+
+Some example uses for the i tag:
+* Taxonomic designation;
+* Technical term;
+* Idiomatic phrase from another language Transliteration;
+* A thought;
+* Ship name in Western texts;
+
+##### Challenge 
+Using the new semantics of HTML elements, mark up the text, “This is the finest piece of art I have ever seen” in the level_1/5/index.html to be represented in an “alternate voice” or “mood”.
+
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
 
