@@ -7,17 +7,25 @@ Code School - Learn the latest versions of HTML &amp; CSS. Take a look at new HT
 Get an overview of HTML5 and CSS3, and learn which HTML elements have been updated in HTML5. 
 
 #### THE NEW DOCTYPE
-In HTML 4 we have 3 different types of Doctypes, that simple putting are only copy and pasted from one project to the other. They are:
+In HTML4 we have 3 different types of Doctypes, that simple putting are only copy and pasted from one project to the other. They are:
 
 1. HTML 4.01 Strict: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
 2. HTML 4.01 Transitional: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">`
 3. HTML 4.01 Frameset: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">`
 
-Now in the HTML 5, we only need a simple one: `<!DOCTYPE html>`
+Now in the HTML5, we only need a simple one: `<!DOCTYPE html>`
 
-##### Challenges:
-1. Start out by writing the new HTML5 doctype into the index.html inside level_1.
-2. Write the new HTML5 `meta` declaration for specifying the character encoding of our document. It should use `UTF-8` as the encoding.
+##### Challenge
+Start out by writing the new HTML5 doctype into the index.html inside level_1/1
+
+
+#### THE META DECLARATION
+The meta declaration is another updated tag, in the HTML4 it has two attribute uncessary in the HTML5 and looked like: `<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">`. 
+
+Now in the HTML5, a new attribute was added, and the meta for encode definition looks like: `<meta charset="UTF-8">`
+
+##### Challenge
+Write the new HTML5 `meta` declaration for specifying the character encoding of our document. It should use `UTF-8` as the encoding. Use the level_1/2/index.html
 
 
 ### LEVEL 2 - HTML5 Elements
