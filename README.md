@@ -35,6 +35,15 @@ Now in the HTML5 they changed browsers so they can infer javascript as type, so 
 ##### Challenge
 Assuming that we have the HTML inside level_1/3/index.html script tag in HTML4, remove the portion we do not need in HTML5.
 
+#### THE LINK TAG
+
+As the script tag in HTML4 we've been using the type attribute to specify the `text/css`, as in: `<link rel="stylesheet" type="text/css" href="style.css">`.
+
+Now in the HTML5 specification the type attribute could be infered, so we finish with something like: `<link rel="stylesheet" href="style.css">`.
+
+##### Challenge
+Use the link tag to to include the external stylesheet, style.css, and only use the attributes necessary for the HTML5 version.
+
 ### LEVEL 2 - HTML5 Elements
 Learn all of the new HTML5 elements, including the section, article, header, footer, and time elements, and also several others that will help make your markup more semantic.
 
