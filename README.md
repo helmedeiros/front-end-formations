@@ -115,3 +115,5 @@ Learn modern CSS styling techniques, including border radius, box shadow, text s
 
 ### LEVEL 5 - Fonts & Interactions
 Learn how to use web fonts with @font-face, create smooth transitions and manipulated elements in CSS with the transition and transform properties, and write CSS according to the principles of progressive enhancement.
+
+This a course from [Code School](http://www.codeschool.com/).
