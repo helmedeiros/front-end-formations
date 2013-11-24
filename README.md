@@ -20,7 +20,7 @@ Start out by writing the new HTML5 doctype into the index.html inside level_1/1
 
 
 #### THE META DECLARATION
-The meta declaration is another updated tag, in the HTML4 it has two attribute uncessary in the HTML5 and looked like: `<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">`. 
+The meta declaration is another updated tag, in the HTML4 it has two attribute unnecessary in the HTML5 and looked like: `<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">`. 
 
 Now in the HTML5, a new attribute was added, and the meta for encode definition looks like: `<meta charset="UTF-8">`
 
@@ -39,7 +39,7 @@ Assuming that we have the HTML inside level_1/3/index.html script tag in HTML4, 
 
 As the script tag in HTML4 we've been using the type attribute to specify the `text/css`, as in: `<link rel="stylesheet" type="text/css" href="style.css">`.
 
-Now in the HTML5 specification the type attribute could be infered, so we finish with something like: `<link rel="stylesheet" href="style.css">`.
+Now in the HTML5 specification the type attribute could be inferred, so we finish with something like: `<link rel="stylesheet" href="style.css">`.
 
 ##### Challenge
 Use the link tag to to include the external stylesheet, style.css, and only use the attributes necessary for the HTML5 version.
@@ -93,7 +93,7 @@ Usage example:
 Using the new semantics of HTML elements, mark up “invitation-only” to have “stress emphasis.” in level_1/7/index.html
 
 #### STRONG IMPORTANCE
-In old days of HTML4 the `strong` was meant to strong emphasis, and now it semanticaly express "strong importance".
+In old days of HTML4 the `strong` was meant to strong emphasis, and now it semantically express "strong importance".
 
 Usage example:
 ```html
